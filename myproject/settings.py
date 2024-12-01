@@ -52,7 +52,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'myproject.urls'
 
-STATIC_ROOT = BASE_DIR / "staticfiles"
+STATIC_ROOT = BASE_DIR / "dashboard/static"  # Pasta onde serão armazenados os arquivos estáticos
 
 STATIC_URL = '/static/'
 
